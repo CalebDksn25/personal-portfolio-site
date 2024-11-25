@@ -34,11 +34,13 @@
 }
 
 .work__img {
-  width: 100%;
   max-width: 259px;
-  max-height: 450px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
+  justify-content: center;
 }
 
 .work__title {
@@ -149,9 +151,21 @@
   align-items: center;
 }
 
+.modal-content-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
 .modal-img {
-  width: 100%;
-  max-width: 500px;
+  width: auto; /* Set width to auto */
+  height: auto; /* Set height to auto */
+  max-width: 200px; /* Set max-width */
+  max-height: 360px; /* Set max-height */
   border-radius: 10px;
   margin-bottom: 20px;
 }
