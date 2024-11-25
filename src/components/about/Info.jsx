@@ -16,9 +16,9 @@ const Info = () => {
       </div>
 
       <div className="about__box">
-        <i class="bx bx-support about__icon"></i>
-        <h3 className="about__title">Support</h3>
-        <span className="about__subtitle">24/7</span>
+        <i class="bx bx-code-block about__icon"></i>
+        <h3 className="about__title">Coding Languages</h3>
+        <span className="about__subtitle">15+ Languages</span>
       </div>
     </div>
   );

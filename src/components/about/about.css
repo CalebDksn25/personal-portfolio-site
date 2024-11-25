@@ -9,6 +9,11 @@
   border-radius: 1.5rem;
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.about__img:hover {
+  transform: scale(1.05); /* Grow the image slightly on hover */
 }
 
 .about__info {
@@ -24,6 +29,10 @@
   text-align: center;
   padding: 1rem 1.25rem;
   transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.section__title {
+  color: rgb(35, 30, 100);
 }
 
 .about__box:hover {
@@ -61,6 +70,11 @@
     width: 220px;
     margin: 0 auto;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+  }
+
+  .about__img:hover {
+    transform: scale(1.05); /* Grow the image slightly on hover */
   }
 
   .about__box {
