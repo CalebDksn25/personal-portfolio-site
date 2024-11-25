@@ -38,6 +38,10 @@
   text-decoration: none;
 }
 
+.nav__item {
+  cursor: pointer;
+}
+
 .nav__close,
 .nav__icon,
 .nav__toggle {
