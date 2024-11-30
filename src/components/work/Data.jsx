@@ -12,15 +12,26 @@ import port1ed from "../../assets/port1ed.png";
 import port1proj from "../../assets/port1proj.png";
 import port1skills from "../../assets/port1skills.png";
 import orderlySpreadSheet from "../../assets/orderlySpreadSheet.png";
+import nocrateHome from "../../assets/nocrateHome.png";
+import nocrateLogin from "../../assets/nocrateLogin.png";
+import nocrateSignup from "../../assets/nocrateSignup.png";
+import nocrateProduct from "../../assets/nocrateProduct.png";
+import nocrateShop from "../../assets/nocrateShop.png";
 
 export const projectsData = [
   {
     id: 1,
-    images: [orderlyIMG, orderlySpreadSheet], // Ensure images is an array
-    title: "Orderly Site",
+    images: [
+      nocrateHome,
+      nocrateShop,
+      nocrateProduct,
+      nocrateSignup,
+      nocrateLogin,
+    ], // Ensure images is an array
+    title: "Nocrate Website",
     category: "Web Development",
     description:
-      "The Orderly website was made to showcase the Orderly Software, whilst still ensuring a clean and professional look for the users. The website was made using HTML, React.JS, CSS, and JavaScript. Currently in development for further use.",
+      "I created a modern and visually engaging e-commerce website for Nocrate, a streetwear and vintage clothing brand. The site features a minimalist design with a clean homepage and intuitive navigation, allowing users to easily explore shop categories. It includes a custom login and sign-up system with Google and Shopify integration for secure and seamless user authentication. The interactive shop page showcases products on a unique “clothing rack” layout with hover animations that enhance user engagement. Each product page provides detailed descriptions, size options, and an “Add to Cart” feature, ensuring a smooth shopping experience. Fully responsive across desktop and mobile devices, this website highlights my ability to design functional, creative, and brand-focused digital platforms.",
   },
   {
     id: 2,
