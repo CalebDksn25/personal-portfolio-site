@@ -20,8 +20,16 @@ const ProjectModal = ({ project, onClose }) => {
             </Carousel.Item>
           ))}
         </Carousel>
+        <div className="tech-stack">
+          <h4>Tech Stack</h4>
+          <ul>
+            {project.techStack.map((tech, index) => (
+              <li key={index}>{tech}</li>
+            ))}
+          </ul>
+        </div>
         <h3>{project.title}</h3>
-        <p>{project.description}</p>
+        <p className="project-description">{project.description}</p>
       </div>
     </div>
   );

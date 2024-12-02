@@ -145,7 +145,7 @@ const Qualification = () => {
                 </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
-                  2024 - 2025
+                  2024 - PRESENT
                 </div>
               </div>
             </div>

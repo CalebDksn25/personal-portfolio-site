@@ -32,6 +32,7 @@ export const projectsData = [
     category: "Web Development",
     description:
       "I created a modern and visually engaging e-commerce website for Nocrate, a streetwear and vintage clothing brand. The site features a minimalist design with a clean homepage and intuitive navigation, allowing users to easily explore shop categories. It includes a custom login and sign-up system with Google and Shopify integration for secure and seamless user authentication. The interactive shop page showcases products on a unique “clothing rack” layout with hover animations that enhance user engagement. Each product page provides detailed descriptions, size options, and an “Add to Cart” feature, ensuring a smooth shopping experience. Fully responsive across desktop and mobile devices, this website highlights my ability to design functional, creative, and brand-focused digital platforms.",
+    techStack: ["React", "CSS", "JavaScript", "Shopify API", "Google API"], // Add tech stack
   },
   {
     id: 2,
@@ -47,6 +48,7 @@ export const projectsData = [
     category: "Application Development",
     description:
       "Greek Gate is a mobile application designed to streamline the proccess of managing fraternity and sorority recruitment events. The app was made using SwiftUI and XCode, ensuring user privacy, as well as a clean and professional look, in order to keep users coming back. Currently In Development.",
+    techStack: ["SwiftUI", "XCode"], // Add tech stack
   },
   {
     id: 3,
@@ -55,6 +57,7 @@ export const projectsData = [
     category: "Web Development",
     description:
       "This portfolio highlights my skills in web development, including responsive design, dynamic interactivity, and clean aesthetics. Built using React, CSS animations, and API integrations, it reflects my expertise in creating intuitive and visually engaging experiences.",
+    techStack: ["React", "CSS", "JavaScript"], // Add tech stack
   },
   {
     id: 4,
@@ -63,6 +66,7 @@ export const projectsData = [
     category: "Web Development",
     description:
       "My first personal portfolio was a pivotal learning experience, where I honed my skills in web development and design. Through that process, I gained valuable insights into responsive layouts, user experience, and coding best practices. Using everything I learned, I built this new portfolio to better showcase my skills, projects, and growth as a developer, with a focus on clean design, interactivity, and functionality.",
+    techStack: ["HTML", "CSS", "JavaScript"], // Add tech stack
   },
   {
     id: 5,
@@ -71,6 +75,7 @@ export const projectsData = [
     category: "Software Development",
     description:
       "This software automates email tracking and provides real-time spreadsheet updates for efficient inventory management. Designed to parse order details directly from emails, it simplifies data entry, improves accuracy, and streamlines workflows for sellers, making tasks like inventory tracking and tax preparation seamless and hassle-free. Software leverages several API's to provide real-time updates and notifications. Currently still in development.",
+    techStack: ["Python", "Google Sheets API", "SMTP"], // Add tech stack
   },
 ];
 
