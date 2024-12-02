@@ -217,10 +217,10 @@
     grid-template-columns: 1fr;
   }
   .work__img {
-    width: 100%;
-    max-height: 300px;
     max-width: 200px;
+    max-height: 300px;
     height: auto;
+    width: auto;
   }
   .modal-img {
     max-width: 200px; /* Set max-width to 200px */
