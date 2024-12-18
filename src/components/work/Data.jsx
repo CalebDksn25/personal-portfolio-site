@@ -1,5 +1,4 @@
 import greekGateLoginPage from "../../assets/greekGateLoginPage.png";
-import orderlyIMG from "../../assets/orderlyIMG.jpeg";
 import portfolioMainPage from "../../assets/portfolioMainPage.png";
 import portfolio1 from "../../assets/portfolio1.png";
 import greekGateChapterView from "../../assets/greekGateChapterView.png";
@@ -70,7 +69,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    images: [orderlySpreadSheet, orderlyIMG], // Ensure images is an array
+    images: [orderlySpreadSheet], // Ensure images is an array
     title: "Orderly Software",
     category: "Software Development",
     description:
