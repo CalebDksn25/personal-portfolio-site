@@ -47,7 +47,10 @@ const Qualification = () => {
             }>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title"> Computer Science </h3>
+                <h3 className="qualification__title">
+                  {" "}
+                  Computer Science & Mathematics{" "}
+                </h3>
                 <span className="qualification__subtitle">
                   San Diego State University
                 </span>
@@ -73,15 +76,14 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  {" "}
-                  Member - Sigma Alpha Epsilon{" "}
+                  Co-Founder: World Computing Org
                 </h3>
                 <span className="qualification__subtitle">
                   San Diego State University
                 </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
-                  2023 - 2027
+                  Est. 2024
                 </div>
               </div>
             </div>
@@ -114,13 +116,14 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  {" "}
-                  Freelanace Software Development{" "}
+                  Fullstack Software Engineer Intern
                 </h3>
-                <span className="qualification__subtitle">Portland, OR</span>
+                <span className="qualification__subtitle">
+                  Voodies - Remote
+                </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
-                  2022 - Present
+                  Dec 2024 - Mar 2025
                 </div>
               </div>
 
@@ -139,27 +142,27 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title"> Valet Assistant </h3>
+                <h3 className="qualification__title">
+                  {" "}
+                  Freelance Software Developer{" "}
+                </h3>
+                <span className="qualification__subtitle">Remote</span>
+                <div className="qualification__calander">
+                  <i className="uil uil-calender"></i>
+                  2022 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Valet</h3>
                 <span className="qualification__subtitle">
                   Towne Park - Portland, OR
                 </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
-                  2024 - Present
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  {" "}
-                  Application / Web Developer{" "}
-                </h3>
-                <span className="qualification__subtitle">San Diego, CA</span>
-                <div className="qualification__calander">
-                  <i className="uil uil-calender"></i>
-                  2022 - Present
+                  2023 - Present
                 </div>
               </div>
 
@@ -178,11 +181,14 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title"> PC Builder </h3>
-                <span className="qualification__subtitle">Portland, OR</span>
+                <h3 className="qualification__title">
+                  {" "}
+                  Member - Sigma Alpha Epsilon{" "}
+                </h3>
+                <span className="qualification__subtitle">San Diego, CA</span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
-                  2020 - 2022
+                  2023 - 2027
                 </div>
               </div>
             </div>
