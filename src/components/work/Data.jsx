@@ -13,9 +13,10 @@ import port1skills from "../../assets/port1skills.png";
 import orderlySpreadSheet from "../../assets/orderlySpreadSheet.png";
 import nocrateHome from "../../assets/nocrateHome.png";
 import nocrateLogin from "../../assets/nocrateLogin.png";
-import nocrateSignup from "../../assets/nocrateSignup.png";
 import nocrateProduct from "../../assets/nocrateProduct.png";
 import nocrateShop from "../../assets/nocrateShop.png";
+import nocrateCat from "../../assets/nocrateCat.png";
+import nocrateContact from "../../assets/nocrateContact.png";
 
 export const projectsData = [
   {
@@ -24,8 +25,9 @@ export const projectsData = [
       nocrateHome,
       nocrateShop,
       nocrateProduct,
-      nocrateSignup,
+      nocrateCat,
       nocrateLogin,
+      nocrateContact,
     ], // Ensure images is an array
     title: "Nocrate Website",
     category: "Web Development",
