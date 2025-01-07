@@ -39,7 +39,7 @@ const ScrollDown = () => {
               strokeWidth: "20px",
             }}></path>
         </svg>
-        <a className="scroll-down__link no-underline" href="#target">
+        <a className="scroll-down__link no-underline" href="#about">
           Scroll
         </a>
         <i className="uil uil-arrow-down home__scroll-arrow"></i>

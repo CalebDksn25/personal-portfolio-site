@@ -13,6 +13,7 @@
   text-decoration: none;
   color: var(--text-color);
   text-decoration: none;
+  color: rgb(35, 30, 100);
 }
 
 .scroll-down__link:hover {
@@ -24,6 +25,7 @@
   text-decoration: none;
   margin-top: 0.5rem;
   font-size: var(--small-font-size);
+  color: rgb(35, 30, 100);
 }
 
 .home__scroll-name {
@@ -36,6 +38,7 @@
 
 .home__scroll-button {
   text-decoration: none;
+  color: rgb(35, 30, 100);
 }
 
 .home__scroll-button.no-underline {
