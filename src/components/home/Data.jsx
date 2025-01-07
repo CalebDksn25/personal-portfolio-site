@@ -100,7 +100,8 @@ const Data = () => {
       </h3>
       <p className="home__description">
         Hey There! My name is Caleb Dickson, I am a sophomore at San Diego State
-        University pursuing a Bachelors of Science in Computer Science.
+        University pursuing a Bachelors of Science in Computer Science, and a
+        minor in Mathematics.
       </p>
 
       <a href="#contact" className="button button--flex">
