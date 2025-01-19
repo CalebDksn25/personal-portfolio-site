@@ -1,7 +1,10 @@
 .services__container {
-  grid-template-columns: repeat(3, 270px);
+  grid-template-columns: repeat(2, 270px);
   justify-content: center;
-  column-gap: 1.8rem;
+  column-gap: 3rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .services__content {
@@ -10,6 +13,7 @@
   background-color: var(--container-color);
   padding: 6rem 0 2rem 2.5rem;
   transition: 0.3s;
+  width: 270px;
 }
 
 .services__content:hover {
@@ -121,66 +125,50 @@
 }
 
 /*========== BREAKPOINTS ==========*/
-/*Large Devices*/
+/* Large Devices */
 @media screen and (max-width: 992px) {
-  .service__container {
-    grid-template-columns: repeat(3, 218px);
-  }
-}
-
-/*Medium Devices*/
-@media screen and (max-width: 768px) {
   .services__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .service__contant {
-    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
-  }
-
-  .services__icon {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-width: 576px) {
-  .serivce__modal-content {
-    padding: 4.5rem 1.5rem 2.5rem;
-  }
-
-  .services__modal-description {
-    padding: 0;
-  }
-}
-
-/*Small Devices*/
-@media screen and (max-width: 350px) {
-  .services__container {
-    grid-template-columns: max-content;
+    grid-template-columns: repeat(2, 250px);
   }
 
   .services__content {
-    padding-right: 6rem;
+    width: 250px;
+    padding: 4.5rem 0 2rem 2rem;
   }
 }
 
-.services__modal-services {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  row-gap: 1rem;
+/* Medium Devices */
+@media screen and (max-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  .services__content {
+    width: 200px;
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  }
 }
 
-.services__modal-service {
-  display: flex;
-  align-items: center;
-  column-gap: 0.5rem;
+/* Small Tablets and Large Phones */
+@media screen and (max-width: 576px) {
+  .services__container {
+    grid-template-columns: repeat(1, 270px);
+  }
+
+  .services__content {
+    width: 270px;
+  }
 }
 
-.services__modal-icon {
-  color: var(--title-color);
-  font-size: 1.1rem;
-}
+/* Small Devices */
+@media screen and (max-width: 350px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
 
-.services__modal-info {
-  font-size: var(--small-font-size);
+  .services__content {
+    width: 100%;
+    padding: 3.5rem 1rem 1.25rem 1.5rem;
+  }
 }

@@ -166,6 +166,7 @@ const Services = () => {
           </div>
         </div>
 
+        {/* Commenting out Visual Designer section
         <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>
@@ -243,6 +244,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+        */}
       </div>
     </section>
   );
