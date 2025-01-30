@@ -1,15 +1,15 @@
 import greekGateLoginPage from "../../assets/greekGateLoginPage.png";
 import portfolioMainPage from "../../assets/portfolioMainPage.png";
-import portfolio1 from "../../assets/portfolio1.png";
+//import portfolio1 from "../../assets/portfolio1.png";
 import greekGateChapterView from "../../assets/greekGateChapterView.png";
 import greekGateChapterDetails from "../../assets/greekGateChapterDetails.png";
 import greekGateFeed from "../../assets/greekGateFeed.png";
 import greekGateSignUp from "../../assets/greekGateSignUp.png";
 import greekGateSettings from "../../assets/greekGateSettings.png";
-import port1cont from "../../assets/port1cont.png";
-import port1ed from "../../assets/port1ed.png";
-import port1proj from "../../assets/port1proj.png";
-import port1skills from "../../assets/port1skills.png";
+//import port1cont from "../../assets/port1cont.png";
+//import port1ed from "../../assets/port1ed.png";
+//import port1proj from "../../assets/port1proj.png";
+//import port1skills from "../../assets/port1skills.png";
 import orderlySpreadSheet from "../../assets/orderlySpreadSheet.png";
 import nocrateHome from "../../assets/nocrateHome.png";
 import nocrateLogin from "../../assets/nocrateLogin.png";
@@ -20,6 +20,12 @@ import nocrateContact from "../../assets/nocrateContact.png";
 import orderlyDash1 from "../../assets/orderlyDash1.png";
 import orderlyDash2 from "../../assets/orderlyDash2.png";
 import orderlyDash3 from "../../assets/orderlyDash3.png";
+import healthAdvisor1 from "../../assets/healthAdvisor1.png";
+import healthAdvisor2 from "../../assets/healthAdvisor2.png";
+import healthAdvisor3 from "../../assets/healthAdvisor3.png";
+import healthAdvisor4 from "../../assets/healthAdvisor4.png";
+import healthAdvisor5 from "../../assets/healthAdvisor5.png";
+import healthAdvisor6 from "../../assets/healthAdvisor6.png";
 
 export const projectsData = [
   {
@@ -65,12 +71,26 @@ export const projectsData = [
   },
   {
     id: 4,
-    images: [portfolio1, port1cont, port1ed, port1proj, port1skills], // Ensure images is an array
-    title: "First Personal Portfolio",
+    images: [
+      healthAdvisor1,
+      healthAdvisor2,
+      healthAdvisor3,
+      healthAdvisor4,
+      healthAdvisor5,
+      healthAdvisor6,
+    ], // Ensure images is an array
+    title: "Hackathon Project - Financial Health Advisor",
     category: "Web Development",
     description:
-      "My first personal portfolio was a pivotal learning experience, where I honed my skills in web development and design. Through that process, I gained valuable insights into responsive layouts, user experience, and coding best practices. Using everything I learned, I built this new portfolio to better showcase my skills, projects, and growth as a developer, with a focus on clean design, interactivity, and functionality.",
-    techStack: ["HTML", "CSS", "JavaScript"], // Add tech stack
+      "Developed a web-based financial health advisor prototype within 24 hours during a hackathon. The project utilized Python, JavaScript, HTML, CSS, AWS Bedrock, and Lambda to process and analyze bank statement uploads. Integrated Anthropic’s Claude 3.5 AI model with Retrieval-Augmented Generation (RAG) to provide tailored financial insights and actionable advice. Focused on optimizing API efficiency, ensuring secure file handling, and delivering a seamless user experience.",
+    techStack: [
+      "Python",
+      "JavaScript",
+      "AWS Bedrock",
+      "AWS Lambda",
+      "HTML",
+      "CSS",
+    ], // Add tech stack
   },
   {
     id: 5,
