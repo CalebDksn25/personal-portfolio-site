@@ -1,11 +1,5 @@
-import greekGateLoginPage from "../../assets/greekGateLoginPage.png";
 import portfolioMainPage from "../../assets/portfolioMainPage.png";
 //import portfolio1 from "../../assets/portfolio1.png";
-import greekGateChapterView from "../../assets/greekGateChapterView.png";
-import greekGateChapterDetails from "../../assets/greekGateChapterDetails.png";
-import greekGateFeed from "../../assets/greekGateFeed.png";
-import greekGateSignUp from "../../assets/greekGateSignUp.png";
-import greekGateSettings from "../../assets/greekGateSettings.png";
 //import port1cont from "../../assets/port1cont.png";
 //import port1ed from "../../assets/port1ed.png";
 //import port1proj from "../../assets/port1proj.png";
@@ -26,6 +20,14 @@ import healthAdvisor3 from "../../assets/healthAdvisor3.png";
 import healthAdvisor4 from "../../assets/healthAdvisor4.png";
 import healthAdvisor5 from "../../assets/healthAdvisor5.png";
 import healthAdvisor6 from "../../assets/healthAdvisor6.png";
+import voodieshome from "../../assets/voodieshome.png";
+import voodies1 from "../../assets/voodies1.png";
+import voodies2 from "../../assets/voodies2.png";
+import voodies3 from "../../assets/voodies3.png";
+import voodies4 from "../../assets/voodies4.png";
+import voodies5 from "../../assets/voodies5.png";
+import voodies6 from "../../assets/voodies6.png";
+import voodies7 from "../../assets/voodies7.png";
 
 export const projectsData = [
   {
@@ -47,18 +49,26 @@ export const projectsData = [
   {
     id: 2,
     images: [
-      greekGateLoginPage,
-      greekGateChapterView,
-      greekGateChapterDetails,
-      greekGateFeed,
-      greekGateSignUp,
-      greekGateSettings,
+      voodieshome,
+      voodies1,
+      voodies2,
+      voodies3,
+      voodies4,
+      voodies5,
+      voodies6,
+      voodies7,
     ], // Ensure images is an array
-    title: "Greek Gate",
+    title: "Voodies",
     category: "Application Development",
     description:
-      "Greek Gate is a mobile application designed to streamline the proccess of managing fraternity and sorority recruitment events. The app was made using SwiftUI and XCode, ensuring user privacy, as well as a clean and professional look, in order to keep users coming back. Currently In Development.",
-    techStack: ["SwiftUI", "XCode"], // Add tech stack
+      "I have been working on Voodies, where I developed the registration and authentication system, ensuring a seamless user sign-up and login experience. Additionally, I designed and implemented the home scroll page, incorporating dynamic content loading and video interaction features. By leveraging Supabase for database management and backend functionalities, I have successfully integrated robust solutions to support real-time updates and efficient data handling for a smooth user experience.",
+    techStack: [
+      "Flutter",
+      "Supabase",
+      "PostgreSQL",
+      "Supabase Authentication API",
+      "XCode",
+    ], // Add tech stack
   },
   {
     id: 3,
