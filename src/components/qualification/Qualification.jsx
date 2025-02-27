@@ -115,8 +115,33 @@ const Qualification = () => {
             }>
             <div className="qualification__data">
               <div>
+                <h3 className="qualification__title">Front-End Lead</h3>
+                <span className="qualification__subtitle">
+                  Voodies - Remote
+                </span>
+                <div className="qualification__calander">
+                  <i className="uil uil-calender"></i>
+                  Feb 2025 - Current
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
                 <h3 className="qualification__title">
-                  Fullstack Software Engineer Intern
+                  Fullstack Developer - Intern
                 </h3>
                 <span className="qualification__subtitle">
                   Voodies - Remote
@@ -126,25 +151,12 @@ const Qualification = () => {
                   Dec 2024 - Mar 2025
                 </div>
               </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
             </div>
 
             <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
               <div>
                 <h3 className="qualification__title">
-                  {" "}
-                  Freelance Software Developer{" "}
+                  Freelance Software Developer
                 </h3>
                 <span className="qualification__subtitle">Remote</span>
                 <div className="qualification__calander">
@@ -152,19 +164,6 @@ const Qualification = () => {
                   2022 - Present
                 </div>
               </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Valet</h3>
-                <span className="qualification__subtitle">
-                  Towne Park - Portland, OR
-                </span>
-                <div className="qualification__calander">
-                  <i className="uil uil-calender"></i>
-                  2023 - Present
-                </div>
-              </div>
 
               <div>
                 <span className="qualification__rounder"></span>
@@ -181,14 +180,13 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">
-                  {" "}
-                  Member - Sigma Alpha Epsilon{" "}
-                </h3>
-                <span className="qualification__subtitle">San Diego, CA</span>
+                <h3 className="qualification__title">Valet</h3>
+                <span className="qualification__subtitle">
+                  Towne Park - Portland, OR
+                </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
-                  2023 - 2027
+                  2023-2024
                 </div>
               </div>
             </div>
