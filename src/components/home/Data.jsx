@@ -9,7 +9,7 @@ const Data = () => {
     "Full-stack Software Engineer",
     "Front-end Developer",
     "Back-end Developer",
-    "Web Designer",
+    "AI/ML Expert",
     "Data Analyst",
   ];
   const period = 2000;
@@ -99,7 +99,7 @@ const Data = () => {
         <span className="cursor">{cursor ? "|" : " "}</span>
       </h3>
       <p className="home__description">
-        Hey There! My name is Caleb Dickson, I am a sophomore at San Diego State
+        Hey There! My name is Caleb Dickson, I'm a Junior at San Diego State
         University pursuing a Bachelors of Science in Computer Science, and a
         minor in Mathematics.
       </p>

@@ -31,14 +31,16 @@ const Footer = () => {
           <a
             href="https://x.com/CalebDicks39944"
             className="footer__social-link"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer">
             <i class="bx bxl-twitter"></i>
           </a>
 
           <a
             href="https://www.linkedin.com/in/caleb-dickson-614912297/"
             className="footer__social-link"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer">
             <i class="bx bxl-linkedin"></i>
           </a>
 

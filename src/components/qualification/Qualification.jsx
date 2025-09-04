@@ -115,13 +115,51 @@ const Qualification = () => {
             }>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Front-End Lead</h3>
+                <h3 className="qualification__title">AI / ML Intern</h3>
+                <span className="qualification__subtitle">Anote - Remote</span>
+                <div className="qualification__calander">
+                  <i className="uil uil-calender"></i>
+                  Aug 2025 - Current
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">AI / ML Fellow</h3>
+                <span className="qualification__subtitle">
+                  Break Through Tech - Remote
+                </span>
+                <div className="qualification__calander">
+                  <i className="uil uil-calender"></i>
+                  March 2024 - Current
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Fullstack Software Developer / Front-End Lead
+                </h3>
                 <span className="qualification__subtitle">
                   Voodies - Remote
                 </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
-                  Feb 2025 - Current
+                  Nov 2024- May 2025
                 </div>
               </div>
 
@@ -141,52 +179,12 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Fullstack Developer - Intern
-                </h3>
-                <span className="qualification__subtitle">
-                  Voodies - Remote
-                </span>
-                <div className="qualification__calander">
-                  <i className="uil uil-calender"></i>
-                  Dec 2024 - Mar 2025
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  Freelance Software Developer
+                  Freelance Software Engineer
                 </h3>
                 <span className="qualification__subtitle">Remote</span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
-                  2022 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Valet</h3>
-                <span className="qualification__subtitle">
-                  Towne Park - Portland, OR
-                </span>
-                <div className="qualification__calander">
-                  <i className="uil uil-calender"></i>
-                  2023-2024
+                  2021-Current
                 </div>
               </div>
             </div>

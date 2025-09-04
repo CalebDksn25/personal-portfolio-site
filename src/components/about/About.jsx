@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpeg";
-import CV from "../../assets/calebCV.pdf";
+import CV from "../../assets/calebdicksonresume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -17,13 +17,15 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Hi, I’m Caleb Dickson, a sophomore studying Computer Science at San
-            Diego State University. With a passion for solving complex problems
-            through technology, I specialize in building innovative software
-            solutions and crafting user-friendly web and mobile applications.
-            I’m involved in Greek life and leadership, striving to make a
-            positive impact on my community. Let’s create something amazing
-            together!
+            Hi, I'm Caleb Dickson - a Junior at San Diego State University
+            majoring in Computer Science, with a minor in Mathematics. I have a
+            passion for solving complex problems through technology. I
+            specialize in building innovative software solutions and crafting
+            user-friendly interfaces. I am the Vice President, and CO-Founder of
+            the World Computing Organization at SDSU. I am also a member of
+            ColorStack, where I have attended countless online workshops. I'm
+            striving to make a posotive impact on my community, so let's create
+            something amazing together!
           </p>
 
           <a
