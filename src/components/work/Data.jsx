@@ -11,9 +11,11 @@ import nocrateProduct from "../../assets/nocrateProduct.png";
 import nocrateShop from "../../assets/nocrateShop.png";
 import nocrateCat from "../../assets/nocrateCat.png";
 import nocrateContact from "../../assets/nocrateContact.png";
-import orderlyDash1 from "../../assets/orderlyDash1.png";
-import orderlyDash2 from "../../assets/orderlyDash2.png";
-import orderlyDash3 from "../../assets/orderlyDash3.png";
+import orderly1 from "../../assets/orderlyArc.png";
+import orderlyPic1 from "../../assets/orderlyPic1.png";
+import orderlyPic2 from "../../assets/orderlyPic2.png";
+import orderlyPic3 from "../../assets/orderlyPic3.png";
+import orderlyPic4 from "../../assets/orderlyPic4.png";
 import healthAdvisor1 from "../../assets/healthAdvisor1.png";
 import healthAdvisor2 from "../../assets/healthAdvisor2.png";
 import healthAdvisor3 from "../../assets/healthAdvisor3.png";
@@ -104,7 +106,14 @@ export const projectsData = [
   },
   {
     id: 5,
-    images: [orderlyDash1, orderlyDash2, orderlyDash3, orderlySpreadSheet], // Ensure images is an array
+    images: [
+      orderlyPic1,
+      orderlyPic2,
+      orderlyPic3,
+      orderlyPic4,
+      orderlySpreadSheet,
+      orderly1,
+    ], // Ensure images is an array
     title: "Orderly Software",
     category: "Software Development",
     description:

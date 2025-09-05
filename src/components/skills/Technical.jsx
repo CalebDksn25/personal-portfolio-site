@@ -3,7 +3,7 @@ import React from "react";
 const Technical = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Personable</h3>
+      <h3 className="skills__title">Professional</h3>
 
       <div className="skills__box">
         <div className="skills__group">

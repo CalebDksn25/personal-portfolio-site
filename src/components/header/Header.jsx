@@ -41,15 +41,16 @@ const Header = () => {
                 <i className="uil uil-file-alt nav__icon"></i> Skills
               </Link>
             </li>
+            {/*}
             <li className="nav__item">
-              <Link
-                to="services"
-                smooth={true}
-                duration={500}
-                className="nav__link">
-                <i className="uil uil-briefcase nav__icon"></i> Services
-              </Link>
-            </li>
+                <Link
+                  to="services"
+                  smooth={true}
+                  duration={500}
+                  className="nav__link">
+                  <i className="uil uil-briefcase nav__icon"></i> Services
+                </Link>
+            </li>*/}
             <li className="nav__item">
               <Link
                 to="portfolio"
