@@ -30,6 +30,16 @@ import voodies4 from "../../assets/voodies4.png";
 import voodies5 from "../../assets/voodies5.png";
 import voodies6 from "../../assets/voodies6.png";
 import voodies7 from "../../assets/voodies7.png";
+import leyva1 from "../../assets/leyva/leyva1.png";
+import leyva2 from "../../assets/leyva/leyva2.png";
+import leyva3 from "../../assets/leyva/leyva3.png";
+import leyva4 from "../../assets/leyva/leyva4.png";
+import leyva5 from "../../assets/leyva/leyva5.png";
+import leyva6 from "../../assets/leyva/leyva6.png";
+import leyva7 from "../../assets/leyva/leyva7.png";
+import leyva8 from "../../assets/leyva/leyva8.png";
+import leyva9 from "../../assets/leyva/leyva9.png";
+import leyva10 from "../../assets/leyva/leyva10.png";
 
 export const projectsData = [
   {
@@ -119,6 +129,26 @@ export const projectsData = [
     description:
       "This software automates email tracking and provides real-time spreadsheet updates for efficient inventory management. Designed to parse order details directly from emails, it simplifies data entry, improves accuracy, and streamlines workflows for sellers, making tasks like inventory tracking and tax preparation seamless and hassle-free. Software leverages several API's to provide real-time updates and notifications. Currently still in development.",
     techStack: ["Python", "Google Sheets API", "SMTP"], // Add tech stack
+  },
+  {
+    id: 6,
+    images: [
+      leyva1,
+      leyva2,
+      leyva3,
+      leyva4,
+      leyva5,
+      leyva6,
+      leyva7,
+      leyva8,
+      leyva9,
+      leyva10,
+    ], // Ensure images is an array
+    title: "Leyva & Night Law Website",
+    category: "Web Development",
+    description:
+      "This project involved redesigning the Leyva & Night Law website to create a modern, responsive, and professional online presence for the firm. The site highlights core legal services, improves navigation, and incorporates a clean UI tailored for accessibility and client engagement. Built with performance and usability in mind, the website streamlines how potential clients find information and contact the firm. The project is complete and live, serving as a polished digital front door for Leyva & Night Law.",
+    techStack: ["React", "ResendAPI", "JavaScript", "CSS"], // Add tech stack
   },
 ];
 
