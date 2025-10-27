@@ -40,6 +40,12 @@ import leyva7 from "../../assets/leyva/leyva7.png";
 import leyva8 from "../../assets/leyva/leyva8.png";
 import leyva9 from "../../assets/leyva/leyva9.png";
 import leyva10 from "../../assets/leyva/leyva10.png";
+import iprep1 from "../../assets/ai-interview-prep/iprep1.png";
+import iprep2 from "../../assets/ai-interview-prep/iprep2.png";
+import iprep3 from "../../assets/ai-interview-prep/iprep3.png";
+import iprep4 from "../../assets/ai-interview-prep/iprep4.png";
+import iprep5 from "../../assets/ai-interview-prep/iprep5.png";
+import iprep6 from "../../assets/ai-interview-prep/iprep6.png";
 
 export const projectsData = [
   {
@@ -149,6 +155,15 @@ export const projectsData = [
     description:
       "This project involved redesigning the Leyva & Night Law website to create a modern, responsive, and professional online presence for the firm. The site highlights core legal services, improves navigation, and incorporates a clean UI tailored for accessibility and client engagement. Built with performance and usability in mind, the website streamlines how potential clients find information and contact the firm. The project is complete and live, serving as a polished digital front door for Leyva & Night Law.",
     techStack: ["React", "ResendAPI", "JavaScript", "CSS"], // Add tech stack
+  },
+  {
+    id: 7,
+    images: [iprep1, iprep2, iprep3, iprep4, iprep5, iprep6], // Ensure images is an array
+    title: "AI Interview Preparation Platform - Claude Hackathon",
+    category: "Software Development",
+    description:
+      "This project was developed during an Anthropic Hackathon, where my team and I created an AI-powered interview preparation platform. The platform leverages Anthropic's Claude Agent SDK and Parellel AI API to do deep research on companies, roles, interview proccess, commonly asked questions, and more. It then does more research on your interviewers based on their names and LinkedIn profiles. Using this data, the platform generates tailored interview questions and answers, information on what to expect during the interview, the proccess, company values, and tips to succeed. Finally, it will ask you the generated interview questions and provide feedback based on the data provided. The platform aims to provide users with a comprehensive and personalized interview preparation experience.",
+    techStack: ["NextJS", "Claude Agent SDK", "Parellel AI API", "Supabase"], // Add tech stack
   },
 ];
 
