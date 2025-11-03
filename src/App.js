@@ -12,11 +12,13 @@ import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
+import { Analytics } from "@vercel/analytics/react";
 import "boxicons/css/boxicons.min.css";
 
 function App() {
   return (
     <>
+      <Analytics />
       <Header />
 
       <main className="main">
