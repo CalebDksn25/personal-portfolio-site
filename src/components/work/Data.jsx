@@ -63,6 +63,8 @@ export const projectsData = [
     description:
       "I created a modern and visually engaging e-commerce website for Nocrate, a streetwear and vintage clothing brand. The site features a minimalist design with a clean homepage and intuitive navigation, allowing users to easily explore shop categories. It includes a custom login and sign-up system with Google and Shopify integration for secure and seamless user authentication. The interactive shop page showcases products on a unique “clothing rack” layout with hover animations that enhance user engagement. Each product page provides detailed descriptions, size options, and an “Add to Cart” feature, ensuring a smooth shopping experience. Fully responsive across desktop and mobile devices, this website highlights my ability to design functional, creative, and brand-focused digital platforms.",
     techStack: ["React", "CSS", "JavaScript", "Shopify API", "Google API"], // Add tech stack
+    gitHub: "https://github.com/CalebDksn25/nocrateTest",
+    demoVid: "",
   },
   {
     id: 2,
@@ -87,6 +89,8 @@ export const projectsData = [
       "Supabase Authentication API",
       "XCode",
     ], // Add tech stack
+    gitHub: "",
+    demoVid: "",
   },
   {
     id: 3,
@@ -96,6 +100,8 @@ export const projectsData = [
     description:
       "This portfolio highlights my skills in web development, including responsive design, dynamic interactivity, and clean aesthetics. Built using React, CSS animations, and API integrations, it reflects my expertise in creating intuitive and visually engaging experiences.",
     techStack: ["React", "CSS", "JavaScript"], // Add tech stack
+    gitHub: "https://github.com/CalebDksn25/personal-portfolio-site",
+    demoVid: "",
   },
   {
     id: 4,
@@ -119,6 +125,9 @@ export const projectsData = [
       "HTML",
       "CSS",
     ], // Add tech stack
+    gitHub: "https://github.com/CalebDksn25/wealthline",
+    demoVid:
+      "https://drive.google.com/file/d/1MVK0GstN6edovPqgJkQxXpqGvH5uJecX/view?usp=sharing",
   },
   {
     id: 5,
@@ -135,6 +144,9 @@ export const projectsData = [
     description:
       "This software automates email tracking and provides real-time spreadsheet updates for efficient inventory management. Designed to parse order details directly from emails, it simplifies data entry, improves accuracy, and streamlines workflows for sellers, making tasks like inventory tracking and tax preparation seamless and hassle-free. Software leverages several API's to provide real-time updates and notifications. Currently still in development.",
     techStack: ["Python", "Google Sheets API", "SMTP"], // Add tech stack
+    gitHub: "https://github.com/CalebDksn25/Orderly",
+    demoVid:
+      "https://drive.google.com/file/d/1UwaTyQ1iqwuKkrS0cGjm4ZyyoHq_N1C3/view?usp=sharing",
   },
   {
     id: 6,
@@ -155,6 +167,8 @@ export const projectsData = [
     description:
       "This project involved redesigning the Leyva & Night Law website to create a modern, responsive, and professional online presence for the firm. The site highlights core legal services, improves navigation, and incorporates a clean UI tailored for accessibility and client engagement. Built with performance and usability in mind, the website streamlines how potential clients find information and contact the firm. The project is complete and live, serving as a polished digital front door for Leyva & Night Law.",
     techStack: ["React", "ResendAPI", "JavaScript", "CSS"], // Add tech stack
+    gitHub: "https://github.com/CalebDksn25/leyvanightlaw_website",
+    demoVid: "",
   },
   {
     id: 7,
@@ -164,6 +178,8 @@ export const projectsData = [
     description:
       "This project was developed during an Anthropic Hackathon, where my team and I created an AI-powered interview preparation platform. The platform leverages Anthropic's Claude Agent SDK and Parellel AI API to do deep research on companies, roles, interview proccess, commonly asked questions, and more. It then does more research on your interviewers based on their names and LinkedIn profiles. Using this data, the platform generates tailored interview questions and answers, information on what to expect during the interview, the proccess, company values, and tips to succeed. Finally, it will ask you the generated interview questions and provide feedback based on the data provided. The platform aims to provide users with a comprehensive and personalized interview preparation experience.",
     techStack: ["NextJS", "Claude Agent SDK", "Parellel AI API", "Supabase"], // Add tech stack
+    gitHub: "https://github.com/CalebDksn25/hackathon",
+    demoVid: "https://www.youtube.com/watch?v=-11S4wNWblg&t=3s",
   },
 ];
 

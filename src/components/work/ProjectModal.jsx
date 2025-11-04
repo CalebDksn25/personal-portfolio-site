@@ -28,8 +28,29 @@ const ProjectModal = ({ project, onClose }) => {
             ))}
           </ul>
         </div>
-        <h3>{project.title}</h3>
+        <h3 className="project-title">{project.title}</h3>
         <p className="project-description">{project.description}</p>
+        <div className="modal-buttons">
+          {project.gitHub && (
+            <a
+              href={project.gitHub}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal-btn modal-btn-github">
+              GitHub
+            </a>
+          )}
+
+          {project.demoVid && (
+            <a
+              href={project.demoVid}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal-btn modal-btn-demo">
+              Video Demo
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
