@@ -94,10 +94,7 @@ const Data = () => {
             fill="#EBA352"></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">
-        {text}
-        <span className="cursor">{cursor ? "|" : " "}</span>
-      </h3>
+      <h3 className="home__subtitle">Software Engineer</h3>
       <p className="home__description">
         Hey There! My name is Caleb Dickson, I'm a Junior at San Diego State
         University pursuing a Bachelors of Science in Computer Science, and a
