@@ -20,9 +20,13 @@ const ScrollUp = () => {
   }, []);
 
   return (
-    <a href="#" className={`scrollup ${showScroll ? "show-scroll" : ""}`}>
+    <button
+      type="button"
+      aria-label="Scroll to top"
+      className={`scrollup ${showScroll ? "show-scroll" : ""}`}
+      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
       <i className="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+    </button>
   );
 };
 

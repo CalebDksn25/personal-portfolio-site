@@ -6,22 +6,25 @@ const Social = () => {
       <a
         href="https://www.instagram.com/calebdicksonn/"
         className="home__social-icon"
-        target="_blank">
-        <i class="uil uil-instagram"></i>
+        target="_blank"
+        rel="noopener noreferrer">
+        <i className="uil uil-instagram"></i>
       </a>
 
       <a
         href="https://www.linkedin.com/in/caleb-n-dickson/"
         className="home__social-icon"
-        target="_blank">
-        <i class="uil uil-linkedin"></i>
+        target="_blank"
+        rel="noopener noreferrer">
+        <i className="uil uil-linkedin"></i>
       </a>
 
       <a
         href="https://github.com/CalebDksn25"
         className="home__social-icon"
-        target="_blank">
-        <i class="uil uil-github-alt"></i>
+        target="_blank"
+        rel="noopener noreferrer">
+        <i className="uil uil-github-alt"></i>
       </a>
     </div>
   );

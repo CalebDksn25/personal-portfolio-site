@@ -32,23 +32,24 @@ const Footer = () => {
             href="https://x.com/CalebDicks39944"
             className="footer__social-link"
             target="_blank"
-            rel="noreferrer">
-            <i class="bx bxl-twitter"></i>
+            rel="noopener noreferrer">
+            <i className="bx bxl-twitter"></i>
           </a>
 
           <a
             href="https://www.linkedin.com/in/caleb-dickson-614912297/"
             className="footer__social-link"
             target="_blank"
-            rel="noreferrer">
-            <i class="bx bxl-linkedin"></i>
+            rel="noopener noreferrer">
+            <i className="bx bxl-linkedin"></i>
           </a>
 
           <a
             href="https://github.com/CalebDksn25"
             className="footer__social-link"
-            target="_blank">
-            <i class="bx bxl-github"></i>
+            target="_blank"
+            rel="noopener noreferrer">
+            <i className="bx bxl-github"></i>
           </a>
         </div>
 
