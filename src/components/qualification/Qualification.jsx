@@ -76,7 +76,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Co-Founder: World Computing Org
+                  INOVATE4SDSU Hackathon Comittee Board Member
                 </h3>
                 <span className="qualification__subtitle">
                   San Diego State University
@@ -90,9 +90,12 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title"> High School </h3>
+                <h3 className="qualification__title">
+                  {" "}
+                  Co-Founder / Vice President{" "}
+                </h3>
                 <span className="qualification__subtitle">
-                  Mountain Side High School
+                  World Computing Org - San Diego State University
                 </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calender"></i>
@@ -103,6 +106,26 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">High School</h3>
+                <span className="qualification__subtitle">
+                  Mountainside High School
+                </span>
+                <div className="qualification__calander">
+                  <i className="uil uil-calender"></i>
+                  2019-2023
+                </div>
               </div>
             </div>
           </div>
