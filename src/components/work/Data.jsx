@@ -46,6 +46,19 @@ import iprep3 from "../../assets/ai-interview-prep/iprep3.png";
 import iprep4 from "../../assets/ai-interview-prep/iprep4.png";
 import iprep5 from "../../assets/ai-interview-prep/iprep5.png";
 import iprep6 from "../../assets/ai-interview-prep/iprep6.png";
+import anote1 from "../../assets/anote/anote1.png";
+import anote2 from "../../assets/anote/anote2.png";
+import anote3 from "../../assets/anote/anote3.png";
+import anote4 from "../../assets/anote/anote4.png";
+import anote5 from "../../assets/anote/anote5.png";
+import anote6 from "../../assets/anote/anote6.png";
+import anote7 from "../../assets/anote/anote7.png";
+import anote8 from "../../assets/anote/anote8.png";
+import anote9 from "../../assets/anote/anote9.png";
+import anote10 from "../../assets/anote/anote10.png";
+import anote11 from "../../assets/anote/anote11.png";
+import anote12 from "../../assets/anote/anote12.png";
+import anote13 from "../../assets/anote/anote13.png";
 
 export const projectsData = [
   {
@@ -180,6 +193,40 @@ export const projectsData = [
     techStack: ["NextJS", "Claude Agent SDK", "Parellel AI API", "Supabase"], // Add tech stack
     gitHub: "https://github.com/CalebDksn25/hackathon",
     demoVid: "https://www.youtube.com/watch?v=-11S4wNWblg&t=3s",
+  },
+  {
+    id: 8,
+    images: [
+      anote1,
+      anote2,
+      anote3,
+      anote4,
+      anote5,
+      anote6,
+      anote7,
+      anote8,
+      anote9,
+      anote10,
+      anote11,
+      anote12,
+      anote13,
+    ], // Ensure images is an array
+    title: "Anote AI - Synthetic Image Data Generation Pipeline",
+    category: "Software Development",
+    description:
+      "This was apart of my Break Through Tech Fellowship, where I was paired with Anote AI, a startup that is focused on making AI more accessible to everyone around the world. During my time here, I helped develop and optimize their synthetic image data generation pipeline. This pipeline leverages Pydom / Brisque for 3D modeling and rendering, Flask for API development, Redis Queue for task management, and AWS S3 for cloud storage. The goal of this project was to create a scalable and efficient system that could generate high-quality synthetic image data to train machine learning models, ultimately enhancing the performance and accuracy of AI applications developed by Anote AI.",
+    techStack: [
+      "ReactJS",
+      "Redis Queue",
+      "Flask",
+      "Python",
+      "MongoDB",
+      "AWS S3",
+      "BlenderProc SDK",
+      "Pydom / Brisque",
+    ],
+    gitHub: "https://github.com/anote-ai/btt-anote2a",
+    demoVid: "https://youtu.be/e-epUnBRMEU",
   },
 ];
 
