@@ -59,6 +59,13 @@ import anote10 from "../../assets/anote/anote10.png";
 import anote11 from "../../assets/anote/anote11.png";
 import anote12 from "../../assets/anote/anote12.png";
 import anote13 from "../../assets/anote/anote13.png";
+import cm1 from "../../assets/careermax/cmax1.png";
+import cm2 from "../../assets/careermax/cmax2.png";
+import cm3 from "../../assets/careermax/cmax3.png";
+import cm4 from "../../assets/careermax/cmax4.png";
+import cm5 from "../../assets/careermax/cmax5.png";
+import cm6 from "../../assets/careermax/cmax6.png";
+import cm7 from "../../assets/careermax/cmax7.png";
 
 export const projectsData = [
   {
@@ -227,6 +234,17 @@ export const projectsData = [
     ],
     gitHub: "https://github.com/anote-ai/btt-anote2a",
     demoVid: "https://youtu.be/e-epUnBRMEU",
+  },
+  {
+    id: 9,
+    images: [cm1, cm2, cm3, cm4, cm5, cm6, cm7], // Ensure images is an array
+    title: "CareerMax - Career Development Platform",
+    category: "Software Development",
+    description:
+      "This was a personal project that a friend and I developed becuase we were tired of tailoring our resume for every sinlge internship application, and wanted to create a platform that would do it for us. CareerMax is a career development platform designed to streamline the internship application process for students and job seekers. The platform leverages AI technology to automatically tailor resumes and cover letters to match specific job descriptions, enhancing the chances of securing interviews. Users can create profiles, upload their resumes, and input job descriptions, while the AI analyzes and customizes their application materials accordingly. CareerMax aims to simplify job applications, save time, and improve the effectiveness of resumes and cover letters through intelligent automation.",
+    techStack: ["ReactJS", "FastAPI", "Python", "Supabase"],
+    gitHub: "https://github.com/darielgu/career-max",
+    demoVid: "https://careermax.dev/",
   },
 ];
 
